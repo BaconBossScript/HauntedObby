@@ -29,6 +29,8 @@ local Tp4Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+MainTab:AddLabel("Note: You Need To Afk 1 Hour For UGC")
+
 MainTab:AddToggle({
 	Name = "Auto Obby",
 	Default = false,
